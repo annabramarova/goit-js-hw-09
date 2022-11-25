@@ -51,8 +51,7 @@ function onTimer() {
       clearInterval(timerId);
     }
     }, 1000);
-    refs.startBtn.disabled =
-    inputDate <= Date.now();
+    refs.startBtn.disabled = true;
 }
     
 function convertMs(ms) {
