@@ -37,7 +37,6 @@ const options = {
 refs.startBtn.addEventListener('click', onTimer);
 
 flatpickr(refs.dataPicker, options);
-// const expireTime = datetimePicker.selectedDates[0].getTime();
 
 function onTimer() {
     timerId = setInterval(() => {
