@@ -52,7 +52,7 @@ function onTimer() {
     }
     }, 1000);
     refs.startBtn.disabled =
-    date.getTime() <= Date.now();
+    inputDate <= Date.now();
 }
     
 function convertMs(ms) {
